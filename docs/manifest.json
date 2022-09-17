@@ -4,8 +4,8 @@
     "short_name": "World Latest News",
     "description": "Informing, educating and entertaining millions of people around the world impartially and independently with World Latest News Updates...",
     "display": "standalone",
-    "background_color": "#fff",
-    "theme_color": "#fff",
+    "background_color": "#000",
+    "theme_color": "#000",
     "orientation": "portrait-primary",
     "prefer_related_applications": true,
     "icons": [
