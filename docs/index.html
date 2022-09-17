@@ -19,7 +19,10 @@
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="World Latest News" />
-    <meta name="twitter:description" content="Informing, educating and entertaining millions of people around the world impartially and independently with World Latest News Updates..." />
+    <meta
+      name="twitter:description"
+      content="Informing, educating and entertaining millions of people around the world impartially and independently with World Latest News Updates..."
+    />
     <meta property="twitter:image" content="assets/icons/favicon.png" />
     <meta property="twitter:url" content="https://worldlatest.news" />
 
@@ -28,7 +31,10 @@
     <meta property="og:title" content="World Latest News" />
     <meta property="og:url" content="https://worldlatest.news" />
     <meta property="og:type" content="website" />
-    <meta property="og:description" content="Informing, educating and entertaining millions of people around the world impartially and independently with World Latest News Updates..." />
+    <meta
+      property="og:description"
+      content="Informing, educating and entertaining millions of people around the world impartially and independently with World Latest News Updates..."
+    />
     <meta property="og:image" content="assets/icons/favicon.png" />
     <meta itemprop="image" content="assets/icons/favicon.png" />
 
@@ -38,6 +44,28 @@
     <meta name="apple-mobile-web-app-title" content="World Latest News" />
     <link rel="apple-touch-icon" href="assets/icons/favicon.png" />
     <link rel="manifest" href="manifest.json" />
+    <script>
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker
+          .register("service-worker.js", {
+            scope: ".", // THIS IS REQUIRED FOR RUNNING A PROGRESSIVE WEB APP FROM A NON_ROOT PATH
+          })
+          .then(
+            function (registration) {
+              // Registration was successful
+              console.log(
+                "ServiceWorker registration successful with scope: ",
+                registration.scope
+              );
+            },
+            function (err) {
+              // registration failed :(
+              console.log("ServiceWorker registration failed: ", err);
+            }
+          );
+      }
+      window.addEventListener("load", run);
+    </script>
   </head>
   <body></body>
 </html>
