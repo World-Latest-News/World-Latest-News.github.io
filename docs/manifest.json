@@ -1,0 +1,18 @@
+{
+    "start_url": ".",
+    "name": "World Latest News",
+    "short_name": "World Latest News",
+    "description": "Informing, educating and entertaining millions of people around the world impartially and independently with World Latest News Updates...",
+    "display": "standalone",
+    "background_color": "#fff",
+    "theme_color": "#fff",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": true,
+    "icons": [
+        {
+            "src": "assets/icons/favicon.png",
+            "sizes": "1024x1024",
+            "type": "image/png"
+        }
+    ]
+}
