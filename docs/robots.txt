@@ -1,0 +1,7 @@
+User-agent: *
+Allow: https://worldlatest.news/
+Sitemap: https://worldlatest.news/sitemap.xml
+
+User-agent: Googlebot
+Allow: /
+Sitemap: https://worldlatest.news/sitemap.xml

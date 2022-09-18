@@ -43,29 +43,41 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
     <meta name="apple-mobile-web-app-title" content="World Latest News" />
     <link rel="apple-touch-icon" href="assets/icons/favicon.png" />
+    <link rel="stylesheet" href="styles/index.css" />
     <link rel="manifest" href="manifest.json" />
-    <script>
-      if ("serviceWorker" in navigator) {
-        navigator.serviceWorker
-          .register("service-worker.js", {
-            scope: ".",
-          })
-          .then(
-            function (registration) {
-              // Registration was successful
-              console.log(
-                "ServiceWorker registration successful with scope: ",
-                registration.scope
-              );
-            },
-            function (err) {
-              // registration failed :(
-              console.log("ServiceWorker registration failed: ", err);
-            }
-          );
-      }
-      window.addEventListener("load", run);
-    </script>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/date.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   </head>
-  <body></body>
+  <body>
+    <!-- » -->
+    <!-- <header>
+      <div class="logo">
+        <a href="index.html">
+          <img
+            src="assets/icons/favicon.png"
+            alt="World Latest News"
+            width="30px"
+            height="30px"
+          />
+        </a>
+      </div>
+      <div class="nav">
+        <a href="index.html">World Latest News</a><br />
+       
+        <div id="current_date" class="date">
+          <script src="scripts/date.js"></script>
+          </div>
+      </div>
+    </header> -->
+
+    <!-- import header.html file content here -->
+    <div id="header"></div>
+
+    <script>
+      $(function () {
+        $("#header").load("header.html");
+      });
+    </script>
+  </body>
 </html>
