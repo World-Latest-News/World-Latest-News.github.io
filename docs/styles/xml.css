@@ -1,15 +1,18 @@
-urlset{
-    display: none;
-    
+urlset {
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style: upper-alpha;
+  list-style-position: inside;
+  list-style-type: none;
 }
 
-url{
-    color: #0000ff;
-    text-decoration: underline;
+url {
+  color: #000000;
+  text-decoration: none;
 }
 
-loc{
-    color: #0000ff;
-    text-decoration: underline;
+loc {
+  color: #313131;
+  text-decoration: none;
 }
-
