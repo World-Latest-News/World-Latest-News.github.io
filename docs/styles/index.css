@@ -9,9 +9,18 @@ body {
   width: 100%;
   margin: 0px;
   padding: 0px;
+  background-color: #000000;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
 }
 
 header {
+  color: aliceblue;
   margin: 0;
   position: absolute;
   top: 50%;
@@ -26,7 +35,8 @@ h1 {
   padding: 0px;
   font-family: "OLDENGL";
   font-size: 8vw;
-  color: #000000;
+  font-weight: 500;
+  color: aliceblue;
   text-align: center;
 }
 
@@ -60,7 +70,7 @@ a {
   height: 30px;
   border-radius: 25px;
   border: 2px;
-  border-color: darkgrey;
+  color: #000000;
   border-style: solid;
   padding: 0px;
   margin: 0px;
@@ -106,4 +116,17 @@ a {
 
 #search_btn:hover {
   color: #181818;
+}
+
+footer{
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: Helvetica, serif;
+  font-size: 10px;
+  color: #f4f4f4;
 }
