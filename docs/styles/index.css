@@ -12,28 +12,31 @@ body {
 }
 
 header {
+  margin: 0;
   position: absolute;
-  width: 100%;
-  top: 40%;
-  text-align: center;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: max-content;
 }
 
 h1 {
   margin: 0px;
   padding: 0px;
   font-family: "OLDENGL";
-  font-size: 2.5em;
+  font-size: 8vw;
   color: #000000;
   text-align: center;
 }
 
 .date {
   font-family: Helvetica, serif;
-  font-size: 12px;
+  font-size: 2.2vw;
   margin: 0px;
   padding: 0px;
   position: relative;
-  bottom: 10px;
+  bottom: 2vw;
 }
 
 a {
@@ -43,18 +46,17 @@ a {
 
 .search {
   font-family: Helvetica, serif;
-  /* font-size: 12px; */
   margin: 0px;
   padding: 0px;
-  position: relative;
+  /* position: relative; */
   left: auto;
   right: auto;
   text-align: center;
 }
 
 #search {
-  position: relative;
-  width: 80%;
+  /* position: relative; */
+  width: 90vw;
   height: 30px;
   border-radius: 25px;
   border: 2px;
@@ -65,10 +67,13 @@ a {
   font-family: Helvetica, serif;
   /* font-size: 14px; */
   text-align: center;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(1, 1, 0, 0.167);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0.98, 0.98, 0.12, 0.35);
+  box-shadow: 0px 0px 5px 0px rgba(0.98, 0.98, 0.12, 0.35);
 }
 
 .search_btn {
-  top: 20px;
+  top: 3vw;
   color: aliceblue;
   background-color: rgb(24, 24, 24);
   border: 2px solid #f4f4f4;
