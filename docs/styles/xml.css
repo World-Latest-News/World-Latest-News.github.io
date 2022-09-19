@@ -1,18 +1,17 @@
 urlset {
   display: block;
+  height: 100%;
+  width: 100%;
   margin: 0;
   padding: 0;
   list-style: upper-alpha;
   list-style-position: inside;
   list-style-type: none;
+  background-color: black;
+  font-family: Helvetica, sans-serif;
 }
 
 url {
-  color: #000000;
-  text-decoration: none;
-}
-
-loc {
-  color: #313131;
+  color: aliceblue;
   text-decoration: none;
 }
