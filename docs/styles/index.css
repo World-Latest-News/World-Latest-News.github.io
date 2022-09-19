@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "OLDENGL";
+  font-family: "WorldLatestNews";
   src: url("../assets/fonts/WorldLatestNews.ttf");
 }
 
@@ -33,7 +33,7 @@ header {
 h1 {
   margin: 0px;
   padding: 0px;
-  font-family: "OLDENGL";
+  font-family: "WorldLatestNews";
   font-size: 8vw;
   font-weight: 500;
   color: aliceblue;
