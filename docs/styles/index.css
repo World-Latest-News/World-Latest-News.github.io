@@ -33,7 +33,7 @@ header {
 h1 {
   margin: 0px;
   padding: 0px;
-  font-family: "WorldLatestNews, Helvetica, serif";
+  font-family: "WorldLatestNews", "Helvetica", "serif";
   font-size: 8vw;
   font-weight: 500;
   color: aliceblue;
