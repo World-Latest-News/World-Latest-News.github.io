@@ -1,7 +1,7 @@
 @font-face {
   font-family: "WorldLatestNews";
   font-display: swap;
-  src: local('Helvetica'), url("../assets/fonts/WorldLatestNews.ttf");
+  src: url("../assets/fonts/WorldLatestNews.ttf"), local("Helvetica");
 }
 
 body {
@@ -47,6 +47,7 @@ h1 {
   padding: 0px;
   position: relative;
   bottom: 2vw;
+  text-align: center;
 }
 
 a {
@@ -88,16 +89,16 @@ a {
   border-radius: 50px;
   text-decoration: none;
   width: 100px;
-  height: 40px;
+  height: 30px;
   position: relative;
   font-size: 14px;
   font-weight: 400;
   transition: all 0.3s ease 0s;
   outline: none;
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
-  align-self: center;
+  /* align-self: center; */
   text-align: center;
   font-family: Helvetica, serif;
 }
@@ -108,6 +109,8 @@ a {
 }
 
 #search_btn {
+  position: relative;
+  text-align: center;
   padding: 5px;
   color: #f4f4f4;
 }
