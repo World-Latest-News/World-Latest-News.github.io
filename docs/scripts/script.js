@@ -17,7 +17,7 @@ if ("serviceWorker" in navigator) {
             }
         );
 }
-window.addEventListener("load", run);
+// window.addEventListener("load", run);
 
 
 window.dataLayer = window.dataLayer || [];
