@@ -13,7 +13,7 @@
         <html>
             <head>
                 <title>
-                    Sitemap
+                    World Latest News
                     <xsl:if test="sitemap:sitemapindex">Index</xsl:if>
                 </title>
                 <link rel="stylesheet" href="https://unpkg.com/tachyons@4.6.1/css/tachyons.min.css"/>
@@ -21,7 +21,7 @@
             <body class="ph3 pb3 mid-gray">
                 <header class="mw8 pv4 center">
                     <div class="flex items-center">
-                        <h1 class="ma0 mr2 f2 blue">Sitemap</h1>
+                        <h1 class="ma0 mr2 f2 blue">World Latest News</h1>
                         <xsl:if test="sitemap:sitemapindex">
                             <span class="dib mr2 ph3 pv1 f6 normal mid-gray bg-light-blue br-pill">Index</span>
                         </xsl:if>
@@ -43,22 +43,22 @@
                                 sitemaps.
                             </xsl:when>
                             <xsl:otherwise>
-                                This index contains
+                                
                                 <strong class="blue"><xsl:value-of select="count(sitemap:urlset/sitemap:url)"/></strong>
-                                URLs.
+                                Articles
                             </xsl:otherwise>
                         </xsl:choose>
                     </h2>
                     <p>
-                        This is an XML sitemap, meant for consumption by search engines.<br/>
-                        You can find more information about XML sitemaps on <a href="https://sitemaps.org" class="link blue">sitemaps.org</a>.
+                        <!-- This is an XML sitemap, meant for consumption by search engines.<br/>
+                        You can find more information about XML sitemaps on <a href="https://sitemaps.org" class="link blue">sitemaps.org</a>. -->
                     </p>
                 </header>
 
                 <xsl:apply-templates/>
 
                 <footer class="mw8 center pv4 tc">
-                    This is an open source <a href="https://github.com/pedroborges/xml-sitemap-stylesheet" title="Go to Github" class="link blue">XML Sitemap Stylesheet</a> created by <a href="https://pedroborg.es" title="Pedro Borges" class="link blue">pedroborg.es</a>
+                    <!-- This is an open source <a href="https://github.com/pedroborges/xml-sitemap-stylesheet" title="Go to Github" class="link blue">XML Sitemap Stylesheet</a> created by <a href="https://pedroborg.es" title="Pedro Borges" class="link blue">pedroborg.es</a> -->
                 </footer>
 
             </body>
@@ -116,14 +116,14 @@
                         <tr>
                             <th class="pa3 fw6 tl dark-gray" style="width:60px"></th>
                             <th class="pa3 fw6 tl dark-gray">URL</th>
-                            <xsl:if test="sitemap:url/sitemap:changefreq">
+                            <!-- <xsl:if test="sitemap:url/sitemap:changefreq">
                             <th class="pa3 fw6 tr dark-gray" style="width:130px">Change Freq.</th>
                             </xsl:if>
                             <xsl:if test="sitemap:url/sitemap:priority">
                             <th class="pa3 fw6 tr dark-gray" style="width:90px">Priority</th>
                             </xsl:if>
                             <xsl:if test="sitemap:url/sitemap:lastmod">
-                            <th class="pa3 fw6 tr dark-gray" style="width:200px">Last Modified</th>
+                            <th class="pa3 fw6 tr dark-gray" style="width:200px">Last Modified</th> -->
                             </xsl:if>
                         </tr>
                     </thead>
