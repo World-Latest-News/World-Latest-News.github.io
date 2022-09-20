@@ -116,14 +116,14 @@
                         <tr>
                             <th class="pa3 fw6 tl dark-gray" style="width:60px"></th>
                             <th class="pa3 fw6 tl dark-gray">URL</th>
-                            <!-- <xsl:if test="sitemap:url/sitemap:changefreq">
+                            <xsl:if test="sitemap:url/sitemap:changefreq">
                             <th class="pa3 fw6 tr dark-gray" style="width:130px">Change Freq.</th>
                             </xsl:if>
                             <xsl:if test="sitemap:url/sitemap:priority">
                             <th class="pa3 fw6 tr dark-gray" style="width:90px">Priority</th>
                             </xsl:if>
                             <xsl:if test="sitemap:url/sitemap:lastmod">
-                            <th class="pa3 fw6 tr dark-gray" style="width:200px">Last Modified</th> -->
+                            <th class="pa3 fw6 tr dark-gray" style="width:200px">Last Modified</th>
                             </xsl:if>
                         </tr>
                     </thead>
