@@ -1,6 +1,6 @@
 if ("serviceWorker" in navigator) {
     navigator.serviceWorker
-        .register("scripts/service-worker.js", {
+        .register("service-worker.js", {
             scope: ".",
         })
         .then(
@@ -18,6 +18,7 @@ if ("serviceWorker" in navigator) {
         );
 }
 window.addEventListener("load", run);
+
 
 window.dataLayer = window.dataLayer || [];
 function gtag() {
