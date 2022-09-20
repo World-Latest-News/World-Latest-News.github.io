@@ -1,13 +1,10 @@
-// Requiring fs module in which 
-// readFile function is defined.
-import { readFile } from 'fs';
+function head() {
+    // Extract text from ../head.txt file 
+    var head = read("../head.txt");
+    // Replace the placeholder with the text
+    // return head.replace("{{title}}", "My title");
   
-var data = readFile('head.html');
-// readFile('../head.html', (err, data) => {
-//     if (err) throw err;
-  
-//     console.log(data.toString());
-// });
+    document.getElementsByTagName("head")[0].innerHTML = head;
+}
 
-// var head = document.getElementsByTagName('head')[0];
-document.getElementById("head").innerHTML = data;
+head();
