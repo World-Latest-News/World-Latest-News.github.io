@@ -1,7 +1,13 @@
 User-agent: *
-Allow: https://worldlatest.news/
+Allow: /
+Disallow: /scripts/
+Disallow: /styles/
+Disallow: /fonts/
 Sitemap: https://worldlatest.news/sitemap.xml
 
 User-agent: Googlebot
 Allow: /
+Disallow: /scripts/
+Disallow: /styles/
+Disallow: /fonts/
 Sitemap: https://worldlatest.news/sitemap.xml
