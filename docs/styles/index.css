@@ -1,6 +1,7 @@
 @font-face {
   font-family: "WorldLatestNews";
-  src: url("../assets/fonts/WorldLatestNews.ttf");
+  font-display: swap;
+  src: local('Helvetica'), url("../assets/fonts/WorldLatestNews.ttf");
 }
 
 body {
