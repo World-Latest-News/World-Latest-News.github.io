@@ -4,6 +4,7 @@
 }
 
 body {
+  position: absolute;
   width: 100%;
   height: auto;
   margin: 0;
@@ -24,7 +25,6 @@ a {
   margin: 0px;
   padding: 0px;
   font-weight: bolder;
-
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   /* Fancy underline  */
@@ -39,15 +39,17 @@ iframe {
 article {
   margin: 10px;
   padding: 18px;
-  width: 100%-30px;
+  /* width: 100%-30px; */
   /* max-width: fit-content; */
-  height: 100%;
+  /* height: 100%; */
   position: relative;
   top: 0px;
   left: 0px;
-  z-index: 1;
+  /* z-index: 1; */
   background-color: #f4f4f4;
   border-radius: 25px;
+  height: max-content;
+  max-height: 100%;
 }
 
 .date {
@@ -69,7 +71,7 @@ article {
 
 .head {
   left: 20px;
-  position: absolute;
+  position: relative;
   color: #f4f4f4;
 }
 
@@ -118,7 +120,7 @@ small {
 
 h1 {
   margin: 0px;
-  padding: 5px 0px 0px 0px;
+  padding: 10px 0px 15px 0px;
   font-size: 22px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -133,9 +135,11 @@ p {
 img {
   flex: auto;
   position: relative;
+  float: right;
+  margin: 0 0 0 15px;
   margin-bottom: 20px;
-  top: 20px;
-  bottom: 20px;
+  /* top: 20px;
+  bottom: 20px; */
   min-width: 27em;
   max-width: 50%;
   height: auto;
